@@ -69,7 +69,7 @@ HEADER
 			<div class="row justify-content-between">
 				<div class="col-md-6 pt-6 pb-6 pr-6 align-self-center">
 				
-					<h1 class="display-4 secondfont mb-3 font-weight-bold">MRI imaging analysis aimed at enhancing MRI quality and reducing MRI imaging time
+					<h1 class="display-4 secondfont mb-3 font-weight-bold"> APTw imaging and segmentation
 					</h1>
 
 					<p class="text-uppercase font-weight-bold">
@@ -103,7 +103,7 @@ MAIN
 			<article class="article-post" style="color:rgba(0, 0,0, 0.8)">
 				Reducing the acquisition time of the Amide Proton Transfer (APT) technique is crucial for its widespread application. One way to reduce the scanning time is by decreasing the frequency offsets used during image acquisition, which might compromise the quantification of the APT effect. In our study, we develop a deep learning-based model that can reconstruct dense frequency offsets from sparse ones, potentially reducing scanning time. We propose using convLSTM to extract both short and long-range spatial and frequency features of APT imaging sequences. Our proposed model outperforms other seq2seq models, achieving superior reconstruction with a peak signal-to-noise ratio of 45.8 (95% confidence interval (CI)): [44.9 46.7]), and a structural similarity index of 0.989 (95% CI:[0.987 0.993]) for the tumor region. We have integrated a weighted layer into our model to evaluate the impact of individual frequency offsets on the reconstruction process. The weights assigned to the frequency offset at ± 6.5 ppm, 0 ppm, and 3.5 ppm demonstrate higher significance as learned by the model. Experimental results demonstrate that our proposed model effectively reconstructs dense APT imaging sequences (+7 to -7 with 0.5 ppm as interval) from data with 21 frequency offsets, reducing scanning time by 25%. This work presents a method for lowering the APT imaging time, offering potential guidance for parameter settings in physical devices during APT imaging and serving as a valuable reference for clinicians.
 			</article>
-			
+		
 		
 		</div>
 	</div>
@@ -138,7 +138,7 @@ MAIN
 			<div class="row justify-content-between">
 				<div class="col-md-6 pt-6 pb-6 pr-6 align-self-center">
 				
-					<h1 class="display-4 secondfont mb-3 font-weight-bold">Execution of downstream task analysis, such as whole-omics and tumor segmentation, among others.
+					<h1 class="display-4 secondfont mb-3 font-weight-bold">Analysis of the entire group
 					</h1>
 					<p class="text-uppercase font-weight-bold">
 						<p class="text-danger" style="font-size: 18px;font-weight: bold;" >Project Leaders  </p>
@@ -202,7 +202,77 @@ MAIN
 			<div class="row justify-content-between">
 				<div class="col-md-6 pt-6 pb-6 pr-6 align-self-center">
 				
-					<h1 class="display-4 secondfont mb-3 font-weight-bold">MMCGLANet: A controllable network that uses multi-modal global learnable attention for MR image denoising.
+					<h1 class="display-4 secondfont mb-3 font-weight-bold">UniMRISegNet: Universal 3D Network for
+						Various Organs and Cancers Segmentation on
+						Multi-Sequence MRI
+					</h1>
+					<p class="text-uppercase font-weight-bold">
+						<p class="text-danger" style="font-size: 18px;font-weight: bold;" >Project Leaders  </p>
+						<p class="text-danger" style="font-size: 14px;" > Qiuhui Yang </p>
+						<p class="text-danger" style="font-size: 18px;font-weight: bold;" >Partner Organisations </p>
+						<p class="text-danger" style="font-size: 14px;" >National Clinical Research Center for Cancer </p>
+						<p class="text-danger" style="font-size: 14px;" >Cancer Hospital & Shenzhen Hospital </p>
+					</p>
+				
+				</div>
+				<div class="col-md-6 pr-0 d-flex justify-content-center align-items-center" style="height: 100%; padding-top: 10%;;padding-bottom: 10%;">
+					<img src="../yqh_research/image_20240917.png" >
+					<!-- <div style="width: 509px;height: 600px;background-image: url(./news_20231214/new_pic.png);  background-size: contain; background-position: center center;   background-repeat: no-repeat;"></div> -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="container pt-4 pb-4">
+	<div class="row justify-content-center">
+		
+		<div class="col-md-12 col-lg-8">
+			
+			<article class="article-post" style="color:rgba(0, 0,0, 0.8)">
+				Magnetic Resonance Imaging (MRI) stands as a cornerstone in modern medical diagnostics, renowned for its unparalleled ability to provide exquisite soft tissue contrast. This advanced imaging modality has become an indispensable tool in patient screening processes. The versatility of MRI is underscored by its array of imaging sequences, including T1-weighted (T1w), T1-weighted contrast-enhanced (T1c), T2-weighted (T2W), T2-fluid attenuated inversion recovery (T2f), and Apparent Diffusion Coefficient (ADC), among others. Each sequence offers a unique perspective on the lesions within the body, providing crucial information that aids clinicians in formulating accurate diagnoses and treatment plans.<p></p>
+
+				Despite its numerous advantages, the diversity of MRI sequences poses a substantial challenge for radiologists. They are often burdened with the arduous and time-intensive task of manually labeling multiple organs or cancerous regions in three-dimensional (3D) space, based on various MRI sequences. This process is not only labor-intensive but also prone to human error, which can impact patient care. Furthermore, existing automated segmentation methods are largely tailored to specific MRI sequences, organs, or types of cancer. This specialization results in a lack of generality, making these methods less adaptable to a broader range of medical imaging tasks. As the number of tasks for which these methods are trained increases, inference speeds tend to slow down, and the parameter counts, leading to increased computational complexity.<p></p>
+				
+				In light of these challenges, there is an urgent demand for the development of an automatic universal 3D segmentation network. Such a network would need to be capable of handling multiple MRI sequences, as well as segmenting various organs and types of cancer. This innovative approach would not only streamline the diagnostic process but also enhance the overall efficiency and accuracy of medical imaging analysis, ultimately contributing to improved patient outcomes.<p></p>			</article>
+			
+		
+		</div>
+	</div>
+</div>
+    
+
+
+
+<div class="container pt-4 pb-4">
+	<div class="row justify-content-center">
+		
+		<div class="col-md-12 col-lg-8">
+			
+			
+			
+			
+			
+			<div style="margin-top: 80px;">
+				<hr style=" height:2px; box-shadow: 0 0px 3px rgba(0, 0, 0, 0.2);">
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-----------------------第四个----------------------------------------------
+
+
+-------------------------------------------------------------------------------->
+
+<div class="container">
+	<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row justify-content-between">
+				<div class="col-md-6 pt-6 pb-6 pr-6 align-self-center">
+				
+					<h1 class="display-4 secondfont mb-3 font-weight-bold">MR image denoising
 
 
 					</h1>
@@ -253,7 +323,7 @@ MAIN
 
 			
 			
-			
+			 
 			
 			
 			<div class="border p-5 bg-lightblue" style="margin-top: 40px;">

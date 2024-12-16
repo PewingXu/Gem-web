@@ -69,13 +69,14 @@ HEADER
 			<div class="row justify-content-between">
 				<div class="col-md-6 pt-6 pb-6 pr-6 align-self-center">
 				
-					<h1 class="display-4 secondfont mb-3 font-weight-bold">Image Quality Improvement of Mobile Ultrasound Devices
+					<h1 class="display-4 secondfont mb-3 font-weight-bold">Image Quality Improvement of Mobile Ultrasound
 					</h1>
 					<p class="text-uppercase font-weight-bold">
 						<p class="text-danger" style="font-size: 18px;font-weight: bold;" >Project Leaders  </p>
 						<p class="text-danger" style="font-size: 14px;" > Haoming Chen </p>
 						<p class="text-danger" style="font-size: 18px;font-weight: bold;" >Partner Organisations </p>
-						<p class="text-danger" style="font-size: 14px;" >西京医院 </p>
+						<p class="text-danger" style="font-size: 14px;" >Xijing Hospital </p>
+						<p class="text-danger" style="font-size: 14px;" >Changsha Central Hospital </p>
 					</p>
 				
 				</div>
@@ -93,14 +94,14 @@ HEADER
 <!--------------------------------------
 MAIN
 --------------------------------------->
-<div class="container pt-4 pb-4">
+<div class="container pt-4 pb-4">`
 	<div class="row justify-content-center">
 		
 		<div class="col-md-12 col-lg-8">
 			<article class="article-post" style="color:rgba(0, 0,0, 0.8)">
-				Mobile ultrasound devices play a crucial role in emergency and family doctor services, providing valuable diagnostic capabilities in a portable form factor. However, when compared to traditional medical ultrasound equipment, there is still scope for improvement in terms of image quality.<p></p>
-				We propose the Hyper-CycleGAN model as a solution to enhance the image quality of mobile ultrasound devices. This model aims to establish a structure-preserving mapping between low-quality ultrasound images and their corresponding high-quality counterparts. Additionally, we plan to incorporate an attention mechanism into the model to enable it to better focus on important areas within the image, thus further enhancing the diagnostic relevance of the generated high-quality images. By leveraging advanced techniques and algorithms, our approach aims to bridge the gap in image quality between mobile ultrasound devices and traditional medical ultrasound equipment, thereby improving the accuracy and effectiveness of emergency and family doctor services.
-				
+				<p>Mobile ultrasound devices play a crucial role in emergency and family doctor services, providing valuable diagnostic capabilities in a portable form factor. However, when compared to traditional medical ultrasound equipment, there is still scope for improvement in terms of image quality.</p>
+				<p>This study has introduced some innovations to enhance the super-resolution reconstruction of medical ultrasound images, particularly for mobile ultrasound devices. By optimizing the CycleGAN network’s generator with a novel set of hyperparameters and convolution kernels, our method has successfully extracted multiscale features more effectively, thereby significantly improving the quality of the reconstructed images and making them controllable. Additionally, employing paired and unpaired ultrasound images alongside natural images in the training process has enabled our model to acquire a more robust understanding of ultrasound-specific features. This is an advancement in leveraging the capabilities of natural cognition to enhance medical imaging. Moreover, the perceptual loss module addresses the critical issue of information loss that plagues traditional methods. This module’s ability to deeply extract and integrate features into the network loss function marks a leap forward in pursuing perceptual consistency and fidelity in ultrasound image super-resolution.
+				</p>				
 			</article>
 			
 		
@@ -108,6 +109,24 @@ MAIN
 	</div>
 </div>
     
+<div class="container">
+	<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row justify-content-between">
+				<div class="col-md-6 pt-6 pb-6 pr-6 align-self-center">
+					<p class="text-uppercase font-weight-bold">
+						<p class="text-danger" style="font-size: 24px; padding-bottom:-200px !important;font-weight: bold;" >Demo</p>
+						<a href="http://gemlab.site:58501/">"Click here to use demo"</a>
+					</p>
+
+				
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+
 
 <div class="container">
 	<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
@@ -131,10 +150,9 @@ MAIN
 	<div class="row justify-content-center">
 		
 		<div class="col-md-12 col-lg-8">
-			<img src="../haoming_research/example_6.png">
+			<img src="../haoming_research/example_7.png">
 			
-			<p class="text-danger" style="font-size: 12px; color: #ccc !important;" >The first image is a low-resolution handheld ultrasound image, and the following five images are generated with settings for 2, 4, 6, 8, and 10 levels of image clarity. </p>
-			
+			<p class="text-danger" style="font-size: 12px; color: #ccc !important;" >The first column is the original image (low resolution). The second column is the model output image (after quality enhancement).
 			
 			<div style="margin-top: 80px;">
 				<hr style=" height:2px; box-shadow: 0 0px 3px rgba(0, 0, 0, 0.2);">
@@ -145,6 +163,8 @@ MAIN
 		</div>
 	</div>
 </div>
+
+
 <!-----------------------第二个----------------------------------------------
 
 
